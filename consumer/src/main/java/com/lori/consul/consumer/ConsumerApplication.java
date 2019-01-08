@@ -6,7 +6,7 @@ import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringCloudApplication
-@EnableFeignClients(basePackages = {"com.lori.consumer.feign.client"})
+@EnableFeignClients(basePackages = {"com.lori.consul.consumer.feign.client"})
 @EnableCircuitBreaker
 public class ConsumerApplication {
 
